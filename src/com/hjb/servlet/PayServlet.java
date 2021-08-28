@@ -61,7 +61,7 @@ public class PayServlet extends BaseServlet {
         alipayRequest.setReturnUrl( "http://localhost:8080/pay?method=payCallback&oid="+orders.getOid()+"&uid="+orders.getUid() );
         //在公共参数中设置回跳和通知地址
         //用户支付完成后，支付宝异步通知结果的地址
-        alipayRequest.setNotifyUrl( "http://www.baidu.com" );
+//        alipayRequest.setNotifyUrl( "http://www.baidu.com" );
         alipayRequest.setBizContent( "{"  +
                 "    \"out_trade_no\":\""+orders.getOid()+"\","  +
                 "    \"product_code\":\"FAST_INSTANT_TRADE_PAY\","  +
