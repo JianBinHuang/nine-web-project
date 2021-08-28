@@ -84,7 +84,7 @@ public class PayServlet extends BaseServlet {
 
     public String payCallback(String oid,Integer uid){
 
-        //2.已支付， 未发货
+        //2.已支付， 1未发货
         orderService.updateOrderStateByOid(oid);
 
         return "forward:order?method=showList&uid="+uid;
