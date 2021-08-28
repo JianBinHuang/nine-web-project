@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : blog
+Source Server         : shop
 Source Server Version : 50731
 Source Host           : localhost:3306
 Source Database       : mishop
